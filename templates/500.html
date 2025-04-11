@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error 500 - Error Interno del Servidor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        h1 {
+            font-size: 3em;
+            color: #dc3545;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Error 500</h1>
+    <p>Ha ocurrido un error interno en el servidor.</p>
+    <p>Serás redirigido a la página de inicio de sesión en unos segundos.</p>
+    <p>Si no ocurre automáticamente, haz clic <a href="login.html">aquí</a>.</p>
+    <script>
+        setTimeout(function() {
+            window.location.href = "/login";
+        }, 5000);
+    </script>
+</body>
+</html>
