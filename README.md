@@ -1,16 +1,16 @@
 ## Screenshots/ Capturas de Pantalla
 
 ### Registro
-![Registro](screenshots/captura_registro.png)
+![Registro](screenshots/captura1.png)
 
 ### Chat
-![Chat](screenshots/captura_chat.png)
+![Chat](screenshots/captura2.png)
 
 ### Perfil
-![Perfil](screenshots/captura_perfil.png)
+![Perfil](screenshots/captura3.png)
 
 ### Cambiar Avatar
-![Cambiar Avatar](screenshots/captura_avatar.png)
+![Cambiar Avatar](screenshots/captura4.png)
 
 
 # Flask Chat App / Aplicación de Chat con Flask
